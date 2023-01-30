@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.title{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hamburger{
+    padding:0.3rem;
+	border-radius: 0.9rem;
+	font-size: 1.5rem;
+	background-color: #BE5959;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

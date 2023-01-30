@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainSection{
+	padding-top: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;;
+}
+
+.courses .boldText{
+	font-weight: bold;
+}
+
+.courses .blurredText{
+	color: grey;
+}
+
+.mainTop .courseTitle{
+	margin-top: 35px;
+}
+
+.mainTop .lecturer{
+	margin-top:20px;
+}
+
+.mainBottom{
+	margin-top: 15px;
+	min-height: 60vh;
+	border-radius: 10px;
+	background-image: url("./video-thumbnail.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bottomMenu{
+	margin-top: 30px;
+	border-bottom: 2px solid grey;
+	padding-bottom: 0.8rem;
+}
+
+.tab{
+	display: flex;
+	justify-content: flex-start;
+	gap:2.5em;
+}
+
+
+

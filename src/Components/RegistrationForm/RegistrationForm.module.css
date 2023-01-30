@@ -1,0 +1,38 @@
+.formContainer{
+    margin-top: 5rem;
+}
+
+.formContainer>p{
+    margin-top: 0.4rem;
+}
+
+.formContainer>form{
+    margin-top: 1.5rem;
+    width: 32%;
+}
+
+.formElement{
+    margin-bottom: 0.7rem;
+    width: 100%;
+    box-shadow: 0px 0px 5px #D6D6D6;
+    border-radius: 10px;
+    padding: 0.95rem;
+    border: 2px solid #D6D6D6;
+}
+
+.formElement>input, .formElement>select{
+    width: 100%;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.btn{
+    background-color:#05C19C;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+
+}

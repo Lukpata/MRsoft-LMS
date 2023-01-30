@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.curriculum{
+	padding-top: 2rem;
+    border-bottom: 2px solid grey;
+    padding-bottom: 0.3rem;
+}
+
+.curriculum .completedCourses{
+	font-weight: bold;
+}
+
+.curriculum .progress{
+	margin-top: 1rem;
+	display: flex;	
+	justify-content: space-between;
+	color: grey;
+}

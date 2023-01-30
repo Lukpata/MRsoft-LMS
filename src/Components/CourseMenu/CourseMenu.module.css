@@ -1,0 +1,7 @@
+.courseMenu{
+	padding-top: 1.4rem;
+	overflow-y: auto;
+	height: 220px;
+	scrollbar-width: none;
+}
+

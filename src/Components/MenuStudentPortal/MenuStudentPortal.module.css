@@ -1,0 +1,7 @@
+.sideMenu{
+    margin-top: 35px;
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap:1.5rem;
+}

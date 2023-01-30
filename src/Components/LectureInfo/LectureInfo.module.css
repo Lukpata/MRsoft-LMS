@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lectureInfo{
+	margin-top: 20px;
+	color: grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap:0.6em;
+    border-bottom:2px solid grey;
+    padding-bottom: 1.7rem;
+}
+
+.lectureInfo span{
+    font-weight: bold;
+    color: black;
+}
