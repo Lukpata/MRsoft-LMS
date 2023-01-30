@@ -1,2 +1,2 @@
-# MrSoft
+# MRSoft
 Student Management System
