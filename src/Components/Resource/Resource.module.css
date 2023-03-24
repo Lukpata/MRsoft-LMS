@@ -1,0 +1,42 @@
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.books{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.bookIcon{
+    border: 1px solid grey;
+    width: 140px;
+    height: 80px;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+}
+
+.bookIcon img{
+    width: 35%;
+}
+
+.references>ul{
+    margin-top: 10px;
+}
+
+.references li{
+    list-style-type:decimal;
+    margin-left: 1.5rem;
+}

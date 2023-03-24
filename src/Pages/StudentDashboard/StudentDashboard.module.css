@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+    display: grid;	
+	grid-template-columns: 	15rem 1fr 17rem;
+    font-family: inter,serif;
+}
+
+.leftSide{
+    background-color:#EB5757;
+	position: sticky;	
+	left: 0;
+	top: 0;
+	height: 100vh;
+	color: white;
+}
+
+.rightSide{
+    position: sticky;	
+	top: 0;
+	right: 0;
+	height: 100vh;
+	border-left:2px solid grey;
+	background-color: white;
+}

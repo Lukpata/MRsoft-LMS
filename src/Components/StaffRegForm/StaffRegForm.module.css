@@ -1,0 +1,60 @@
+.formContainer{
+    margin-top: 3rem;
+}
+
+.formContainer>p{
+    margin-top: 0.4rem;
+}
+
+.formContainer .registerStaff{
+    text-align: center;
+    color:#5D5D5D;
+}
+
+.formContainer>form{
+    margin-top: 3.5rem;
+    width: 32%;
+    width: 100%;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 15px;
+}
+
+.formElement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.7rem;
+    width: 100%;
+    box-shadow: 0px 0px 5px #D6D6D6;
+    border-radius: 40px;
+    padding: 0.95rem;
+    border: 2px solid #D6D6D6;
+}
+
+.formElement>input{
+    width: 100%;
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+}
+
+.btnContainer{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.btn{
+    background-color:#05C19C;
+    border: none;
+    padding: 0.6rem 6rem;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

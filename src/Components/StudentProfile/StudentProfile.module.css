@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.studentProfile{
+	margin-top: 20px;
+	display: flex;
+	gap:1rem;
+    align-items: center;
+}
+
+.picture{
+	width: 35px;
+    height: 35px;
+	border-radius: 50%;
+	background-color: #D9D9D9;
+}
+
+.picture img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.profileInfo .name{
+	font-weight: bold;
+	color: black;
+}
+
+.profileInfo .program{
+	margin-top: 7px;
+	color: grey;
+}
+
+.profileInfo p{
+    font-size: 13px;
+}
